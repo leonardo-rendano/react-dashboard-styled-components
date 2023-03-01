@@ -1,6 +1,7 @@
 import { ContentHeader } from "../../components/ContentHeader"
 import { SelectInput } from "../../components/SelectInput"
-import { Container } from "./styles"
+import { HistoryFinanceCard } from "../../components/HistoryFinanceCard"
+import { Container, Content } from "./styles"
 
 export const List: React.FC = () => {
 
@@ -12,9 +13,89 @@ export const List: React.FC = () => {
 
   return (
     <Container>
-      <ContentHeader title="Lists" lineColor="#E44C4E">
+      <ContentHeader title="Saídas" lineColor="#E44C4E">
         <SelectInput options={options} />
       </ContentHeader>
+
+      <Content>
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+        <HistoryFinanceCard  
+          cardColor="#313862"
+          tagColor="#E44C4E"
+          title="Conta de luz"
+          subTitle="01/03/2023"
+          amount="R$ 130,00"
+        />
+      </Content>
     </Container>
   )
 }
